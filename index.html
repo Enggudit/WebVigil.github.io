@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>webVigil</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="678.png" type="image/678-png">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="background-video">
+        <video autoplay muted loop>
+            <source src="videoplayback.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="hero">
+        <nav>
+            <div class="Explore">
+                <a class="exp" href="sign.html">Login/SignUp</a>
+            </div>
+            <div class="logo2"><a herf="#"><img src="logo.png" height="77" width="250"></img></a></div>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a class="load3" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a class="load1" href="#">Home</a></li>
+                <li><a class="load1" href="#fuls">About</a></li>
+                <li><a class="load1" href="#service">Service</a></li>
+                <li><a class="load1" href="#team">Team</a></li>
+                <li><a class="load1" href="#contact">Contact</a></li>
+                <br></br>
+                <br></br>
+                <div class="login">
+                    <a class="exp1" href="http://www.facebook.com">Login/SignUp</a></a>
+                </div>
+            </ul>
+            <ul>
+                <li><a class="load" href="#">Home</a></li>
+                <li><a class="load" href="#fuls">About</a></li>
+                <li><a class="load" href="#service">Service</a></li>
+                <li><a class="load" href="#team">Team</a></li>
+                <li><a class="load" href="#contact">Contact</a></li>
+                <li><a herf="#"><img src="b.png" height="25" width="23"></a></li>
+                <li onclick=showSidebar()><a class="png" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar()
+            {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display='flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar= document.querySelector('.sidebar')
+                sidebar.style.display='none'
+            }
+        </script>
+        <div class="content">
+            <h1>Web</h1>
+            <h1>&nbsp;&nbsp;Vigil</h1>
+            <h4>Create Future & Secure Security</h4>
+        </div>
+        <div class="content1">
+            <h1 align="center">Web</h1>
+            <h1 align="center">Vigil</h1>
+            <br></br>
+            <h4 align="center">Create Future & Secure Security</h4>
+        </div>
+        
+        <div class="s">
+            <a href="Regsitration.html"><div class="card" id="service">
+                <div class="wrapper">
+                    <img src="web-dev.jpg" class="cover-image" height="400" width="auto">
+                </div>
+                <img src="web-name.png" class="logo">
+                <img src="web-logo.png" class="character">
+            </div></a>
+            <div class="card" id="service">
+                <div class="wrapper">
+                    <img src="pro-dev.jpg" class="cover-image" height="400" width="auto">
+                </div>
+                <img src="pro-name.png" class="logo">
+                <img src="pro-logo.png" class="character" height="200" width="auto">
+            </div>
+            <div class="card" id="service">
+                <div class="wrapper">
+                    <img src="own-dev.jpeg" class="cover-image" height="400" width="auto">
+                </div>
+                <img src="own-name.png" class="logo">
+                <img src="678.png" class="character" height="200" width="auto">
+            </div>
+            <div class="card" id="service">
+                <div class="wrapper">
+                    <img src="com-dev.jpeg" class="cover-image" height="400" width="auto">
+                </div>
+                <img src="com-name.png" class="logo">
+                <img src="com-logo.png" class="character" height="200" width="auto">
+            </div>
+        </div>
+        <br></br>
+        <div class="circle" id="fuls">
+            <img class="cir" src="ro.png" height="250" width="1000">
+        </div>
+        <div class="float">
+            <h1 align="center">About Us of Our company</h1>
+            <div class="abc">
+                <h3>
+                    Introducing Web Vigil, A leading security and web development company based in Mathura, Uttar Pradesh, India. With a strong focus on safeguarding your online presence, we offer comprehensive solutions to protect your website and ensure seamless functionality. At Web Vigil, our team of skilled professionals combines their expertise in security and web development to provide you with top-notch services. From conducting thorough vulnerability assessments to implementing robust security measures, we ensure that your website remains secure against potential threats. Additionally, we specialize in creating tailored web development solutions that align with your business objectives, enhancing your online presence and user experience. Choose Web Vigil for reliable security and web development services that empower your business and give you peace of mind. Contact us today to discuss how we can help you strengthen your online presence and protect your digital assets.
+                </h3>
+                <img src="678.png" height="500" width="10000">
+            </div>
+            <div class="abc1">
+                <a onclick=showabout12()  href="#"><img src="678.png" height="500" width="100%"></a>
+            </div>
+            <h3 class="about12">
+                <a onclick=hideabout12() class="load4" href="#fuls"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                Introducing Web Vigil, A Leading security and web development company based in Mathura, Uttar Pradesh, India. With a strong focus on safeguarding your online presence, we offer comprehensive solutions to protect your website and ensure seamless functionality. At Web Vigil, our team of skilled professionals combines their expertise in security and web development to provide you with top-notch services. From conducting thorough vulnerability assessments to implementing robust security measures, we ensure that your website remains secure against potential threats. Additionally, we specialize in creating tailored web development solutions that align with your business objectives, enhancing your online presence and user experience. Choose Web Vigil for reliable security and web development services that empower your business and give you peace of mind. Contact us today to discuss how we can help you strengthen your online presence and protect your digital assets.
+            </h3>
+        </div>
+        <script>
+            function showabout12()
+            {
+                const about12 = document.querySelector('.about12')
+                about12.style.display='flex'
+            }
+            function hideabout12()
+            {
+                const about12= document.querySelector('.about12')
+                about12.style.display='none'
+            }
+        </script>
+        <div class="team" id="team">
+            <h1 align="center"><font size="7">Web<span>Vigil</span>&nbsp;Expert's</font></h1>
+        </div>
+        <div class="team1" id="team">
+            <h1 align="center"><font size="7">Web<span>Vigil</span><br>&nbsp;Expert's</br></font></h1>
+        </div>
+        <div class="team-bulid">
+        <div class="team-list" id="team-list">
+            <div class="box" data-color="clr1">
+                <div class="imBx">
+                    <img src="head.jpg" height="250" width="250">
+                </div>
+                <div class="glass">
+                    <h3>Udit Singhal<br><span>Founder & CEO</span></h3>
+                    <ul>
+                        <a href="#" style="--i:1;"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://www.instagram.com/" style="--i:3;"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#" style="--i:4;"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </ul>   
+                </div>
+            </div>
+            <div class="box" data-color="clr2">
+                <div class="imBx">
+                    <img src="vishnu.jpg" height="250" width="250">
+                </div>
+                <div class="glass">
+                    <h3>Vishnu Sharma<br><span>Director</span></h3>
+                    <ul>
+                        <a href="#" style="--i:1;"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" style="--i:3;"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#" style="--i:4;"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </ul>   
+                </div>
+            </div>
+            <div class="box" data-color="clr3">
+                <div class="imBx">
+                    <img src="radhey.jpg" height="250" width="250">
+                </div>
+                <div class="glass">
+                    <h3>Radhey Shyam<br><span>HR</span></h3>
+                    <ul>
+                        <a href="#" style="--i:1;"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" style="--i:3;"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#" style="--i:4;"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </ul>   
+                </div>
+            </div>
+            <div class="box" data-color="clr4">
+                <div class="imBx">
+                    <img src="deepesh.jpg" height="300" width="300">
+                </div>
+                <div class="glass">
+                    <h3>Deepesh Baghel<br><span>Manager</span></h3>
+                    <ul>
+                        <a href="#" style="--i:1;"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" style="--i:3;"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#" style="--i:4;"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </ul>   
+                </div>
+            </div>
+        </div>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <footer class="footer-distributed" id="contact">
+            <div class="footer-left">
+                <h3>Web<span>Vigil</span></h3>
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    |
+                    <a href="#">About</a>
+                    |
+                    <a href="#contact">Contact</a>
+                </p>
+                <p class="footer-company-name">Copyright © 2023 <strong>WebVigil</strong> All rights reserved</p>
+            </div>
+            <div class="footer-center">
+                <h3 class="ssss">&nbsp;&nbsp;&nbsp;Contact</h3>
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Mathura</span>
+                        UttarPradesh</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p><span>+91 9917481216</span>
+                    +91 8077700569</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:webvigil.conslate@gmail.com">webvigil.conslate@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>Join The Conversation</span>
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.instagram.com/webvigil.consulate/"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>

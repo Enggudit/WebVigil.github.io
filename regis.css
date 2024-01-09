@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body
+{
+    background-color: #1a1a1a;
+    cursor: none;
+    background-image: url('back.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    
+}
+.custom-cursor
+{
+    position: absolute;
+    top:10%;
+    left: 10%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: url('cursor.jpg') no-repeat center center;
+    pointer-events: none;
+    animation: rotate 3s linear infinite;
+    z-index: 999;
+}
+@keyframes rotate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.audio1
+{
+    padding-top: 4%;
+    z-index: -99999;
+}
+.Explore
+{
+    padding-top: 19px;
+    padding-left: 21px;
+    font-size: 25px;
+}
+.exp
+{
+    text-decoration: none;
+    background-color: #1a1a1a;
+    padding: 5px 8px 5px 5px;
+    border-radius: 25%;
+    border: 2px solid blue;
+}
+nav
+{
+    position: fixed;
+	top: 0;
+    left: 0;
+    width: 100%;
+	background-color: transparent;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 100;
+    border:1px solid #1a1a1a;
+}
+ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding-right: 14px;
+    padding-top: 25px;
+}
+.load
+{
+    text-decoration:none;
+    font-size: 150%;
+    padding-right: 19px;
+}
+.load1
+{
+    text-decoration:none;
+    font-size: 150%;
+    padding-right: 19px;
+}
+.load3
+{
+    background:#fff;
+    border: 2px solid blue;
+    text-decoration: none;
+}
+.load4
+{
+    background:#fff;
+    border: 2px solid blue;
+    text-decoration: none;
+}
+.sidebar
+{
+    position: fixed;
+    top:75px;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    justify-self:flex-start;
+}
+.sidebar li
+{
+    width: 100%;
+    padding-left: 15px;
+}
+.sidebar a
+{
+    width: 100%;
+}
+nav .sidebar
+{
+    display: none;
+}
+.png
+{
+    display: none;
+    border: 2px solid blue;
+    background-color: #fff;
+}
+
+nav h3
+{
+    padding-bottom: 19px;
+}
+.Explore a:hover
+{
+	text-decoration:none;
+	color: white;
+    font-size: 27px;
+	border-top-style:solid;
+	border-top-color:blue;
+	border-top-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:blue;
+	border-bottom-width:3px;
+    box-shadow:0px 0px 50px blue;
+	
+}
+.Explore a:visited
+{
+	color:white;
+}
+.Explore a:link
+{
+	color:white;
+}
+.Explore a:active
+{
+	color:#ffffff;
+	border-top-style:solid;
+	border-top-color:blue;
+	border-top-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:blue;
+	border-bottom-width:3px;
+	border-left-style:solid;
+	border-left-color:blue;
+	border-left-width:3px;
+	border-right-style:solid;
+	border-right-color:blue;
+	border-right-width:3px;
+}
+ul li a:hover
+{
+	text-decoration:none;
+	color: #ffffff;
+	border-top-style:solid;
+	border-top-color:blue;
+	border-top-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:blue;
+	border-bottom-width:3px;
+	
+}
+ul li a:visited
+{
+	color:white;
+}
+ul li a:link
+{
+	color:white;
+}
+ul li a:active
+{
+	color:#ffffff;
+	border-top-style:solid;
+	border-top-color:blue;
+	border-top-width:3px;
+	border-bottom-style:solid;
+	border-bottom-color:blue;
+	border-bottom-width:3px;
+
+}
+.exp1
+{
+    display:none;
+    text-decoration: none;
+    background-color: #1a1a1a;
+    padding: 5px 8px 5px 5px;
+    border-radius: 25%;
+    border: 2px solid blue;
+    color: aliceblue;
+}
+.Hello
+{
+    position:absolute;
+    left: 35%;
+    z-index: -1;
+}
+.Hello img
+{
+    width: 45%;
+    display: flex;
+
+}
+.goggles img
+{
+    margin-top: 6%;
+    margin-left: 47%;
+    z-index: 10;
+    width: 10%;
+}
+.buttons h1
+{
+    z-index: -1;
+    border:5px solid yellow;
+    color: yellowgreen;
+    position: absolute;
+    left: 32%;
+    background-color: yellowgreen;
+    padding: 1%;
+    top: 53%;
+    border-radius: 50%;
+}
+.buttons h1:hover
+{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5%;
+    backdrop-filter: blur(12px);
+    color: whitesmoke;
+    transition: all 0.8s;
+}
+.buttons:hover
+{
+    margin-top: -5%;
+    transition: all 0.8s;
+    transform-origin: 100%;
+}
